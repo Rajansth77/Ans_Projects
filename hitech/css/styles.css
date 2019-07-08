@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fade-img img {
+    padding-top: 4rem;
+    height: 100vh;
+    width: 100vw !important;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-tv:hover{
+    cursor: pointer;
+
+}
+
+.nav-product:hover{
+    cursor: pointer;
+}
+
+
+
+@media (min-width:991px) {
+    .dropdown-menu .dw-products {
+        width: 400px;
+    }
+
+    .dropdown-menu .dw-tv {
+        width: 200px;
+    }
+}
+
+/* .navbar-light {
+    background-color: #fafafa;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 40px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.focus-product {
+    background-color: #fefefe;
+    align-items: center;
+}
+
+.product-showcase {
+    margin: 5rem 0;
+}
+
+.title {
+    font-size: 5vmin;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 450;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+.social {
+    color: #111;
+
+}
+
+.social:hover {
+    color: red;
+}
+
+.slick-dots {
+    bottom: -80px;
+}
+
+.footer-banner {
+    position: relative;
+}
+
+.footer-banner>img {
+    width: 100vw;
+}
+
+/* .footer-info {
+    position: absolute;
+    margin: 3em 5em;
+    width: 40%;
+    top: 10px;
+    left: 20px;
+} */
+
+.page-footer {
+    background-color: #fafafa;
+    color: #1c1c1c;
+}
+
+.footer-copyright {
+    background-color: #fdfdfd;
+    color: #111;
+}
+
+.list-unstyled li a {
+    color: #1c1c1c;
+}
+
+.list-unstyled li {
+    margin: 1rem;
+}
+
+.list-unstyled li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* PRODUCTS */
+.product-banner {
+    margin-top: 4rem;
+}
+
+.android-tv h4 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0a0a0a;
+}
+
+.android-tv h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    columns: #858585;
+}
+
+.android-tv p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0a0a0a;
+    letter-spacing: 1px;
+}
+
+.about-banner {
+    margin-top: 4rem;
+}
+
+.about h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.about h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about h5 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.face1 {
+    width: 150px;
+}
+
+.leadership h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: dark;
+}
+
+.leadership {
+    background: #fbfbfb;
+}
+
+.leadership h2 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #1c1c1c;
+}
+
+.leadership p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+}
+
+.mission {
+    background: #fbfbfb;
+}
+
+.location {
+    background: #fbfbfb;
+}
+
+.contact-img {
+    margin-top: 4em;
+}
+
+.services-img {
+    margin-top: 4em;
+}
+
+.services i {
+    font-size: 50px;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
+
+}
+
+.banner-title{
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.services {
+    background: #fbfbfb;
+}
+
+.features{
+    padding-top: 5em;
+    
+}
+
+.sizes{
+    font-size: 20px;
+}
+.features .size{
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.features h1{
+    font-size: 25px;
+}
+
+.features li{
+    font-size: 17px;
+}
+
+.extra-feature img{
+    width: 70px;
+}
+
+.extra-feature h3{
+    font-size: 1.5em;
+}
+
+.extra-feature h3{
+    margin-top: 1em;
+}
+
+.feature-background{
+    background: #fbfbfb;
+}
+
+.fourkbanner{
+    margin-top: 4em;
+}
+
+.freezer h6{
+    font-size: 2.5vmin;
+}
+
+@media (max-width: 1024px) {
+    /* .footer-info {
+        margin: 1rem 1rem;
+        width: calc(100% - 3rem);
+        top: 1rem;
+        left: 1rem;
+        position: initial;
+    } */
+}
+
+@media (max-width: 991.98px) {
+
+    .title {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .tv-title {
+        font-size: 30px;
+    }
+
+    .product-title h1 {
+        font-size: 30px;
+    }
+
+    /* .footer-info h1 {
+        font-size: 30px;
+    } */
+
+
+
+
+}
+
+
+@media (max-width: 992px) {
+    .fade-img img {
+        padding-top: 4rem;
+        height: 100%;
+        width: 100% !important;
+    }
+}

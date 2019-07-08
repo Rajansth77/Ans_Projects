@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ANS Soft Pro</title>
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar Starts -->
+        <div class="container-fluid border-bottom py-0 px-0 px-md-5 ">
+            <nav class="navbar navbar-expand-lg navbar-light py-0">
+
+                <!-- Company Logo -->
+                <a class="navbar-brand" href="#">ANS Soft XPro</a>
+                <!-- <a href="#"><img src="../images/ans-logo.png" alt="logo" class="img-fluid mr-3"></a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerMenuCollapse"
+                    aria-controls="headerMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Search Area -->
+                <div class="collapse navbar-collapse" id="headerMenuCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <!-- <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0 py-2 fas fa-search"
+                                    type="submit"></button>
+                            </form> -->
+                            <form class="input-icon my-3 my-lg-0">
+                                <input type="search" class="form-control" placeholder="Search…" tabindex="1">
+                                <div class="input-icon-addon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </form>
+
+                        </li>
+                    </ul>
+
+
+                    <div class="dropdown d-flex">
+                        <!-- Email -->
+                        <a href="#" class="nav-link px-0 icon">
+                            <i class="far fa-envelope btn-lg text-info"></i>
+                        </a>
+
+                        <!-- Notification -->
+                        <a href="#" class="nav-link px-0 icon" data-toggle="dropdown">
+                            <i class="fas fa-bell btn-lg text-danger"></i>
+                            <span class="nav-unread"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-arrow notification">
+                            <a href="#" class="dropdown-item d-flex">
+                                <span class="avatar align-self-center"></span>
+                                <div>
+                                    <strong>Rajan</strong> said : Hello!
+                                    <div class="small text-muted">10 minutes ago</div>
+                                </div>
+                            </a>
+
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item text-center text-muted-dark">Mark all as read</a>
+                        </div>
+
+
+                        <!-- User Details -->
+                        <div class="user-img nav-link px-0 d-block mr-1">
+                            <img src="../images/26.jpg" alt="image">
+                        </div>
+
+                        <div class="dropdown">
+                            <a href="#" class="nav-link px-0 leading-none" data-toggle="dropdown">
+                                <span class="avatar"></span>
+                                <span class="ml-0 d-lg-block user-span">
+                                    <span class="text-danger">Rajan Shrestha</span>
+                                    <small class="text-muted d-block">Administrator</small>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow user-dropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="dropdown-icon fas fa-cog"></i> Settings
+                                    <a class="dropdown-item" href="#">
+                                        <i class="dropdown-icon fas fa-sign-out-alt"></i> Log out
+                                    </a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main Navbar -->
+        <div class="header collapse d-lg-flex main-nav" id="headerMenuCollapse">
+            <div class="container-fluid px-5">
+                <div class="row">
+                    <div class="col-lg">
+                        <ul class="list-unstyled justify-content-start  nav nav-tabs flex-column flex-lg-row">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="fa fa-home item m-1 nav-link" data-toggle="dropdown">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="fa fa-wrench item m-1 nav-link" data-toggle="dropdown">
+                                    <span>Setup</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-arrow">
+                                    <a href="./cards.html" class="dropdown-item ">Setup 1</a>
+                                    <a href="./charts.html" class="dropdown-item ">Setup 2</a>
+                                    <a href="./pricing-cards.html" class="dropdown-item ">Setup 3</a>
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="fas fa-chart-area item m-1 nav-link" data-toggle="dropdown">
+                                    <span>DailyTransaction</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-arrow">
+                                    <a href="./cards.html" class="dropdown-item ">Transaction 1</a>
+                                    <a href="./charts.html" class="dropdown-item ">Transaction 2</a>
+                                    <a href="./pricing-cards.html" class="dropdown-item ">Transaction 3</a>
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="fas fa-rupee-sign item m-1 nav-link" data-toggle="dropdown">
+                                    <span>Accounting</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-arrow">
+                                    <a href="./cards.html" class="dropdown-item ">Accounting 1</a>
+                                    <a href="./charts.html" class="dropdown-item ">Accounting 2</a>
+                                    <a href="./pricing-cards.html" class="dropdown-item ">Accounting 3</a>
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="fas fa-chart-line item m-1 nav-link" data-toggle="dropdown">
+                                    <span>Reports</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-arrow">
+                                    <a href="./cards.html" class="dropdown-item ">Report 1</a>
+                                    <a href="./charts.html" class="dropdown-item ">Report 2</a>
+                                    <a href="./pricing-cards.html" class="dropdown-item ">Report 3</a>
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="fa fa-tools item m-1 nav-link" data-toggle="dropdown">
+                                    <span>Tools</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-arrow">
+                                    <a href="./cards.html" class="dropdown-item ">Tools 1</a>
+                                    <a href="./charts.html" class="dropdown-item ">Tools 2</a>
+                                    <a href="./pricing-cards.html" class="dropdown-item ">Tools 3</a>
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="fas fa-atom item m-1 nav-link" data-toggle="dropdown">
+                                    <span>Misc</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-arrow">
+                                    <a href="./cards.html" class="dropdown-item ">Misc 1</a>
+                                    <a href="./charts.html" class="dropdown-item ">Misc 2</a>
+                                    <a href="./pricing-cards.html" class="dropdown-item ">Misc 3</a>
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="fas fa-info item m-1 nav-link" data-toggle="dropdown">
+                                    <span> About Us</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar ends -->
+    </header>
+
+    <main>
+        <!-- main navbar -->
+        <div class="main my-2 py-0 px-0 px-md-5">
+            <div class="container-fluid border pb-2">
+                <div class="file-nav border-bottom d-flex justify-content-between py-2">
+                    <div class="file-head ml-2 mt-2">
+                        <h5>Party Management</h5>
+                    </div>
+                    <div class="features">
+                        <a href="#"><i class="fas fa-print text-dark mr-md-3 mr-1 btn-lg"></i></a>
+                        <a href="#"><i class="fa fa-table text-dark mr-md-3 mr-1 btn-lg"></i></a>
+                        <a href="#"><i class="fa fa-file-pdf text-dark btn-lg"></i></a>
+                    </div>
+                </div>
+                <!-- left container -->
+                <div class="row mt-3">
+                    <div class="col-md-4 col-12">
+                        <!-- <form class="form-block my-2 my-lg-0 w-100">
+                            <input class="form-control mr-2" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0 py-2 fas fa-search"
+                                type="submit"></button>
+                            </form> -->
+                        <form class="input-icon my-3 my-lg-0">
+                            <input type="search" class="form-control" placeholder="Search…" tabindex="1">
+                            <div class="input-icon-addon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </form>
+                        <div class="party-list mt-2 border">
+                            <ul class="list-group m-1">
+                                <a href="#" class="text-dark">
+                                    <li class="list-group-item">ANS Soft</li>
+                                </a>
+                                <a href="#" class="text-dark">
+                                    <li class="list-group-item">ABC Soft</li>
+                                </a>
+                                <a href="#" class="text-dark">
+                                    <li class="list-group-item">Apple Soft</li>
+                                </a>
+                                <a href="#" class="text-dark">
+                                    <li class="list-group-item">Banana Soft</li>
+                                </a>
+                                <a href="#" class="text-dark">
+                                    <li class="list-group-item">Cat Soft</li>
+                                </a>
+                                <a href="#" class="text-dark">
+                                    <li class="list-group-item">Dog Soft</li>
+                                </a>
+                                <a href="#" class="text-dark">
+                                    <li class="list-group-item">Chicken Soft</li>
+                                </a>
+                                <a href="#" class="text-dark">
+                                    <li class="list-group-item">Puppy Soft</li>
+                                </a>
+                                <a href="#" class="text-dark">
+                                    <li class="list-group-item">Pineapple Soft</li>
+                                </a>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Right container -->
+
+                    <!-- Buttons -->
+                    <div class="col-md-8 col-12 border border-right-0">
+                        <div class="row mt-2 justify-content-sm-end justify-content-start">
+                                <a href="#" class="btn border-1 button1 mx-2 btn-outline-primary shadow">Add</a>
+                                <a href="#" class="btn border-1 button1 mr-2 btn-outline-info shadow">Edit</a>
+                                <a href="#" class="btn button1 border-1 mr-2 btn-outline-danger shadow">Delete</a>
+                                <a href="#" class="btn button1 border-1 mr-3 btn-outline-success shadow">Save</a>
+                        </div>
+                        <!-- Form -->
+                        <div class="row align-items-center my-2 form">
+                            <label class="col-sm-4 mt-2">Party ID:</label>
+                            <div class="col-sm-8 mt-2">
+                                <input type="number" class="form-control" placeholder="Enter ID number">
+                            </div>
+
+                            <label class="col-sm-4 mt-1">Party Name:</label>
+                            <div class="col-sm-8 mt-1">
+                                <input type="text" class="form-control" placeholder="Enter party name">
+                            </div>
+                            <label class="col-sm-4 mt-1">Address:</label>
+                            <div class="col-sm-8 mt-1">
+                                <input type="text" class="form-control" placeholder="Enter address">
+                            </div>
+                            <label class="col-sm-4 mt-1">Contact No:</label>
+                            <div class="col-sm-8 mt-1">
+                                <input type="number" class="form-control" placeholder="Enter contact number">
+                            </div>
+                            <label class="col-sm-4 mt-1">Opening Balance:</label>
+                            <div class="col-sm-8 mt-1">
+                                <input type="number" class="form-control" placeholder="Enter opening balance">
+                            </div>
+                            <label class="col-sm-4 mt-1">Account Head:</label>
+                            <div class="col-sm-8 mt-1">
+                                <div class="btn-group border rounded">
+                                    <button type="button" class="btn btn-default dropdown-toggle"
+                                        data-toggle="dropdown">Suppliers<span class="caret"></span></button>
+                                    <ul class="dropdown-menu scrollable-menu" role="menu">
+                                        <li><a href="#">ABC Supplier</a></li>
+                                        <li><a href="#">123 Supplier</a></li>
+                                        <li><a href="#">555 Supplier</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- footer -->
+        <div class="container-fluid border border-bottom-0">
+            <div class="row mt-2 mx-4">
+                <div class="col-lg-8 col-12 order-2 order-lg-1">
+                    <div class="row text-center text-lg-left">
+                        <div class="col">
+                            <p>
+                                Copyright © ANS Soft XPro. Design by <strong>Rajan Shrestha</strong>. All rights
+                                reserved <strong>ANS Soft Inc. Pvt. Ltd.</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 order-1 order-lg-2">
+                    <div class="row text-center text-lg-right">
+                        <div class="col">
+                            <a href="#" class="mr-5 text-dark">Help</a>
+                            <a href="#" class="text-dark">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

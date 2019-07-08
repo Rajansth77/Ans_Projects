@@ -1,0 +1,57 @@
+body{
+    background: #CDD1D3;
+}
+
+.ans-logo img{
+    width: 70%;
+    padding-top: 40vh;
+    padding-left: 10vw;
+}
+
+.navbar{
+    background-color: #CDD1D3;
+    color: black;
+    font-size: 18px;
+    padding-right: 40px;
+    line-height: 14px;
+    font-weight: 550;
+}
+
+.navbar li{
+    font-family: helvetica;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin-right: 2em;
+}
+
+h3{
+    color: gray;
+}
+
+.navbar li a:hover{
+    color: darkmagenta !important;
+}
+
+.text-justify{
+    font-size: 16px;
+    color: gray;
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+.footer p{
+    font-size: 15px;
+    color: gray;
+}
+
+.lg{
+    width: 60%;
+}
+
+
+@media (max-width: 768px){
+    .text-justify{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

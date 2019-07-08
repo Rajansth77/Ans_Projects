@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana;
+
+}
+
+/* PARTY MANAGEMENT STARTS HERE */
+
+.user-span {
+    font-size: 14px;
+}
+
+.user-img img {
+    border-radius: 50%;
+    width: 2em;
+}
+
+.item {
+    color: rgb(111, 112, 111);
+}
+
+.item span {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.item:hover {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(2, 2, 2, 2);
+}
+
+.file-nav {
+    background: white;
+}
+
+.file-head h5 {
+    font-size: 18px;
+}
+
+main .card-body {
+    height: 20rem;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon-addon:last-child {
+    left: auto;
+    right: 0;
+}
+
+.input-icon-addon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color: #9aa0ac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    pointer-events: none;
+}
+
+.btn-group button {
+    font-size: 14px;
+}
+
+.btn-group a {
+    color: black;
+    font-size: 14px;
+}
+
+.btn-group li {
+    padding: 2px 2px;
+}
+
+.form {
+    font-size: 15px;
+}
+
+.party-list {
+    font-size: 14px;
+    overflow: scroll;
+    height: 55vh;
+}
+
+.button1 {
+    font-size: 14px;
+    padding: 4px 15px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.notification {
+    font-size: 13px;
+}
+
+.user-dropdown {
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 0;
+}
+
+footer strong {
+    color: black;
+}
+
+footer a {
+    font-size: 14px;
+
+}
+
+.main-nav .dropdown-item {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* PARTY MANAGEMENT ENDS HERE */
+
+
+/* SALE RETURN STARTS HERE */
+
+.label label{
+    font-size: 14px;
+}
+
+.label input{
+    font-size: 14px;
+}
+
+.table{
+    font-size: 12px;
+}
+
+.index{
+    font-size: 14px;
+}
